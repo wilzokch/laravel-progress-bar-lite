@@ -2,6 +2,7 @@
     "name": "wilzokch/laravel-progress-bar-lite",
     "description": "Fast Progress Bar for Laravel Command.",
     "keywords": ["template", "composer", "package"],
+	"minimum-stability": "dev",
     "license": "GPL-3.0-or-later",
     "authors": [
         {
