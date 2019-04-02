@@ -24,7 +24,7 @@ Example
 </code></pre>
 <pre><code>
     // create progress bar using following function instead of $this->output->createProgressBar(count($data));
-	$bar = $this->createProgressBar(count($data));
+    $bar = $this->createProgressBar(count($data));
 </code></pre>
 
 Test result with my PC
