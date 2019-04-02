@@ -1,6 +1,6 @@
 {
-    "name": "wilzokch/php-malaysia-postcode-to-state",
-    "description": "PHP library that convert Malaysia post code into state.",
+    "name": "wilzokch/laravel-progress-bar-lite",
+    "description": "Fast Progress Bar for Laravel Command.",
     "keywords": ["template", "composer", "package"],
     "license": "GPL-3.0-or-later",
     "authors": [
@@ -18,7 +18,7 @@
     },
 	"autoload": {
         "psr-4": {
-            "Wilzokch\\MalaysiaPostcodeToState\\": "src/"
+            "Wilzokch\\ProgressBarLite\\": "src/"
         }
     }
 }
