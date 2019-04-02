@@ -12,32 +12,32 @@ This progress bar allow you to configure the update frequency of progress bar (d
 
 Installation via "composer require"
 --------
-<pre>
+```shell
     composer require wilzokch/laravel-progress-bar-lite
-</pre>
+```
 
 Example
 --------
-<pre><code>
-    // put in your command class or refer to sample/TestCommand.php
-    use LiteProgressBarTrait;
-</code></pre>
-<pre><code>
-    // create progress bar using following function instead of $this->output->createProgressBar(count($data));
-    $bar = $this->createProgressBar(count($data));
-</code></pre>
+```php
+// put in your command class or refer to sample/TestCommand.php
+use LiteProgressBarTrait;
+```
+```php
+// create progress bar using following function instead of $this->output->createProgressBar(count($data));
+$bar = $this->createProgressBar(count($data));
+```
 
 Test result with my PC
 --------
 
 using Laravel Progress bar
-<pre><code>
+```
  100000/100000 [============================] 100%
 time taken: 79.0038s
-</code></pre>
+```
 	
 using Progress bar lite
-<pre><code>
+```
  100000/100000 [============================] 100%
 time taken: 0.5265s
-</code></pre>
+```
