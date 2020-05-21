@@ -4,7 +4,7 @@ This is a package to provide a faster progress bar for Laravel 5.1 and above.
 
 Problem
 --------
-When using default laravel progress bar, it will slow down the proccessing time significantly when your data are too large.
+Laravel default progress bar will slow down the proccessing time significantly when your data are too large.
 
 Solution
 --------
